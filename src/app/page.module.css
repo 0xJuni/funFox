@@ -1,0 +1,196 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  font-family: "Short Stack", cursive;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.main_image {
+  position: relative;
+  /* background-image: url(/images/background.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 200% ; */
+}
+
+.openBook {
+  position: absolute;
+  bottom: 100px;
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+}
+
+.tag {
+  position: absolute;
+  top: 10px;
+  left: 150px;
+}
+
+.pencil {
+  position: absolute;
+  top: 120px;
+}
+
+.bag {
+  position: absolute;
+  top: 385px;
+}
+
+.hat {
+  position: absolute;
+  bottom: 100px;
+  right: 0px;
+}
+
+.scale {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+}
+
+.closeBook {
+  position: absolute;
+  top: 385px;
+  right: 0px;
+}
+
+.cloudMain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  position: absolute;
+  top: 370px;
+  left: 70px;
+}
+
+.cloudText {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  position: absolute;
+  top: 490px;
+  left: 120px;
+  font-size: 28px;
+}
+
+.title__main {
+  position: absolute;
+  top: 80px;
+  left: 300px;
+}
+
+.title__main h1 {
+  position: absolute;
+  top: 12px;
+  left: 65px;
+  width: 100%;
+  color: #fff;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.hero_sectionText {
+  position: absolute;
+  top: 156px;
+  left: 90px;
+  max-width: 85%;
+
+}
+
+.hero_sectionText h5 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.blueBackgroundImg{
+  position: absolute;
+  top: 240px;
+  left: 80px;
+}
+
+
+.blueBackgroundImg h5{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  font-weight: 500;
+  width: 75%;
+}
+
+.studentImg{
+  position: absolute;
+  top: 10px;
+  right: 40px;
+}
+
+.lessonContainer{
+  position: absolute;
+  top: 585px;
+  left: 80px;
+}
+
+.lessonContainer p{
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  font-size: 24px;
+  line-height: 29px;
+  width: 90%;
+}
+
+
+.footer{
+  position: absolute;
+  bottom: 62px;
+  width: 100%;
+}
+
+.personIcon{
+  position: absolute;
+  left: 65px;
+  top: 0px;
+}
+
+.HelpIcon{
+  position: absolute;
+  right: 65px;
+  top: 0px;
+}
+
+
+.previousArrow{
+  position: absolute;
+  left: 490px;
+  top: 0px;
+}
+
+.pageNumering{
+  position: absolute;
+  left: 540px;
+  top: 0px;
+}
+
+.nextArrow{
+  position: absolute;
+  right: 525px;
+  top: 0px;
+}
